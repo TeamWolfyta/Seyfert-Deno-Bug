@@ -1,0 +1,21 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:dotenv@^16.4.7": "16.4.7",
+    "npm:seyfert@^2.1.0": "2.1.0"
+  },
+  "npm": {
+    "dotenv@16.4.7": {
+      "integrity": "sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ=="
+    },
+    "seyfert@2.1.0": {
+      "integrity": "sha512-L5AoUVACw1HDosUj0an9oA9ORICaGzU99mTs9yX2siT8SPe2LP3eoJ+MhRWrNULAV50qKKVzXMbiXyCzkY0jeA=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:dotenv@^16.4.7",
+      "npm:seyfert@^2.1.0"
+    ]
+  }
+}

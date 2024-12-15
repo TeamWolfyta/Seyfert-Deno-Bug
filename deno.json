@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "dotenv": "npm:dotenv@^16.4.7",
+    "seyfert": "npm:seyfert@^2.1.0"
+  },
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "start": "deno run --allow-all src/main.ts",
+    "watch": "deno run --watch src/main.ts"
+  }
+}
